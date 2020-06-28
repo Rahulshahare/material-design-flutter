@@ -25,7 +25,13 @@ class HomePage extends StatelessWidget {
       // TODO: Add app bar (102)
       appBar: AppBar(
         leading: IconButton(
-          
+          icon: Icon(
+            Icons.menu,
+            semanticLabel: 'menu',
+          ),
+          onPressed: (){
+            print('Menu Button');
+          },
         ),
         title: Text('SHRINE'),
       ),
