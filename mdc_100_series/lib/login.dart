@@ -45,6 +45,7 @@ class _LoginPageState extends State<LoginPage> {
             /* TODO: Add TextField widgets (101) - Done */
             // [Name]
             TextField(
+              autofocus: true,
               controller: _usernameController,
               decoration: InputDecoration(
                 filled: true,
