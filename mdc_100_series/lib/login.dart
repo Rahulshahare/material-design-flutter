@@ -76,7 +76,8 @@ class _LoginPageState extends State<LoginPage> {
                 RaisedButton(
                   child: Text('NEXT'),
                   onPressed: (){
-                    Navigator.pop(context);
+                        Navigator.pop(context);
+                      
                     /**
                      * Navigator maintains a stack of routes just like UINavigationController on iOS. 
                      * Pushing a route places it at the top of the stack. 
