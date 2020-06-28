@@ -60,7 +60,19 @@ class _LoginPageState extends State<LoginPage> {
             ButtonBar(
               //TODO: Add a beveled rectangular border to cancel(103)
               children: <Widget> [
-                  //TODO: Add buttons(101) 
+                //TODO: Add buttons(101) 
+                FlatButton(
+                  child: Text('CANCEL'),
+                  onPressed: (){
+                    //TODO: To clear both inputes(101)
+                  },
+                ),
+                RaisedButton(
+                  child: Text('NEXT'),
+                  onPressed: (){
+                    // TODO: Show the next page (101) 
+                  },
+                ),
               ],
             ),
           ],
