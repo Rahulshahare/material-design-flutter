@@ -75,7 +75,14 @@ class _LoginPageState extends State<LoginPage> {
                 RaisedButton(
                   child: Text('NEXT'),
                   onPressed: (){
-                    // TODO: Show the next page (101) 
+                    Navigator.pop(context);
+                    /**
+                     * Navigator maintains a stack of routes just like UINavigationController on iOS. 
+                     * Pushing a route places it at the top of the stack. 
+                     * Popping the stack removes the most recently added route. 
+                     * In app.dart of our app, calling initialRoute: '/login', 
+                     * adds the login screen to the Navigator, on top of what is passed in home:.
+                     */
                   },
                 ),
               ],
