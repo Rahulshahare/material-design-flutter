@@ -48,6 +48,12 @@ class _LoginPageState extends State<LoginPage> {
                 labelText: 'Username',
               ),
             ),
+            TextField(
+              decoration: InputDecoration(
+                filled: true,
+                labelText: 'Password',
+              ),
+            ),
             // TODO: Add button bar (101)
           ],
         ),
