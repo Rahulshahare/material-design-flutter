@@ -24,6 +24,9 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       // TODO: Add app bar (102)
       appBar: AppBar(
+        leading: IconButton(
+          
+        ),
         title: Text('SHRINE'),
       ),
       // TODO: Add a grid view (102)
