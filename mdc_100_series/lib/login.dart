@@ -68,7 +68,8 @@ class _LoginPageState extends State<LoginPage> {
                 FlatButton(
                   child: Text('CANCEL'),
                   onPressed: (){
-                    //TODO: To clear both inputes(101)
+                    _usernameController.clear();
+                    _passwordController.clear();
                   },
                 ),
                 RaisedButton(
