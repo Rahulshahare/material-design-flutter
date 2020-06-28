@@ -50,7 +50,7 @@ class HomePage extends StatelessWidget {
               semanticLabel: 'filter',
             ),
             onPressed: (){
-              print('Filter button')
+              print('Filter button');
             },
           ),
         ],
