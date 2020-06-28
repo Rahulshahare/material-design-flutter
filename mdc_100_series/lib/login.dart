@@ -48,12 +48,13 @@ class _LoginPageState extends State<LoginPage> {
                 labelText: 'Username',
               ),
             ),
-            SizedBox(height: 10.0),
+            SizedBox(height: 20.0),
             TextField(
               decoration: InputDecoration(
                 filled: true,
                 labelText: 'Password',
               ),
+              obscureText: true,
             ),
             // TODO: Add button bar (101)
           ],
