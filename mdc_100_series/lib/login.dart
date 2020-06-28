@@ -57,6 +57,12 @@ class _LoginPageState extends State<LoginPage> {
               obscureText: true,
             ),
             // TODO: Add button bar (101)
+            ButtonBar(
+              //TODO: Add a beveled rectangular border to cancel(103)
+              children: <Widget> [
+                  //TODO: Add buttons(101) 
+              ],
+            ),
           ],
         ),
       ),
