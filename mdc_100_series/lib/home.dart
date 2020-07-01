@@ -66,7 +66,7 @@ class HomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               AspectRatio(
-                aspectRatio: 18.0/11.0,
+                aspectRatio: 18.0/11.0,//AspactRatio is a width/height ratio
                 child: Image.asset('assets/diamond.png'),
               ),
               Padding(
